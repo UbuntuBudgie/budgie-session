@@ -1,0 +1,39 @@
+1. 
+Every copyright section denoted by
+
+Files: *
+Copyright:
+
+Needs to be cleaned up as follows
+change each line to be in the format
+year, name <email>
+
+i.e. somelines have the format name <email>, year,year2,year3 so the years need to be swapped to the year, name <email> format
+
+Then where there are several of the same "name <email>" the year needs to be amalgamated 
+
+e.g. if we have 
+2001, name <email>
+2002, 2004,2010, name <email>
+
+then create just one line of
+2001-2010, name <email>
+
+Finally, where we have a unique name <email> then the <email> should be deleted
+
+e.g.
+
+freddy kruger <somewhere@gmail.com>
+freddy kruger <somewhereelese@gmail.com>
+
+Then these are treated as unique - so both should be kept
+where we have
+
+freddy h kruger <somewhere@gmail.com>
+freddy b kruger <somewhereelse@gmail.com>
+
+Then we can delete the email address for both since there are two "different freddy krugers"
+
+Example of a cleaned-up copyright with multiple sections
+
+https://github.com/UbuntuBudgie/magpie/blob/debian/debian/copyright
