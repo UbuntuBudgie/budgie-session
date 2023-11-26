@@ -1,0 +1,11 @@
+budgie-session (0.1-0ubuntu2) mantic; urgency=medium
+
+  * remove the patches from debian/ubuntu
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 15 Oct 2023 21:32:42 +0100
+
+budgie-session (0.1-0ubuntu1) mantic; urgency=medium
+
+  * Initial Release (Closes: #828765)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 15 Oct 2023 07:25:57 -0400

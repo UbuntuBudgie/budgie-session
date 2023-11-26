@@ -1,0 +1,5 @@
+budgie-session: no-manual-page [usr/libexec/budgie-session-binary]
+budgie-session: no-manual-page [usr/libexec/budgie-session-check-accelerated-gl-helper]
+budgie-session: no-manual-page [usr/libexec/budgie-session-check-accelerated-gles-helper]
+budgie-session: no-manual-page [usr/libexec/budgie-session-check-accelerated]
+budgie-session: no-manual-page [usr/libexec/budgie-session-failed]

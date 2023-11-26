@@ -1,0 +1,3 @@
+debian/Revert-main-Remove-GNOME_DESKTOP_SESSION_ID-envvar.patch
+ubuntu/support_autostart_delay.patch
+ubuntu/dbus_request_shutdown.patch

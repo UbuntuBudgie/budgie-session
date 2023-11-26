@@ -1,0 +1,10 @@
+debian/budgie-session/usr/bin/budgie-session
+debian/budgie-session/usr/bin/budgie-session-inhibit
+debian/budgie-session/usr/bin/budgie-session-quit
+debian/budgie-session/usr/libexec
+debian/budgie-session/usr/share/budgie-session/hardware-compatibility
+debian/budgie-session/usr/share/man/man1/budgie-session.1*
+debian/budgie-session/usr/share/man/man1/budgie-session-inhibit*
+debian/budgie-session/usr/share/man/man1/budgie-session-quit*
+debian/budgie-session/usr/share/glib-2.0/schemas
+debian/budgie-session/usr/share/locale
