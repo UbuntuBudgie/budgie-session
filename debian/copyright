@@ -6,6 +6,7 @@ Comment: budgie-session is a fork of the Debian gnome-session package at
  v44. The gnome-session package copyright has been reformatted and updated to
  include authors listed next to copyright statements from all files in the
  project source.
+
 Files: *
 Copyright:
   1997-2002, Christopher R. Gabriel
@@ -492,6 +493,11 @@ Copyright:
   Robert Sedak
   Wang Jian
   Zipeco
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2023, Marc Gilligan <marcg@ulfnic.com>
+  2023, David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
 
 License: GPL-2+
