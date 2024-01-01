@@ -3,7 +3,6 @@ Section: misc
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends:
- debhelper (>= 13),
  debhelper-compat (= 13),
  libdbus-1-dev,
  libgl-dev,
