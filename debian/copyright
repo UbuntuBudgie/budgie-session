@@ -8,496 +8,593 @@ Comment: budgie-session is a fork of the Debian gnome-session package at
  project source.
 
 Files: *
-Copyright:
-  1997-2002, Christopher R. Gabriel
-  1997-2020, Free Software Foundation, Inc
-  1998-1999, Dirk-Jan C. Binnema
-  1998-1999, Max Valianskiy
-  1998-2000, Kenneth Christiansen
-  1998-2000, Ville Hautamäki
-  1998-2000, Vincent Renardias
-  1998-2002, Szabolcs Ban
-  1998-2003, Zbigniew Chyla
-  1998-2008, the Free Software Foundation, Inc.
-  1998-2022, Changwoo Ryu
-  1998-2022, Free Software Foundation, Inc.
-  1998-2023, Kjartan Maraas
-  1998, Carsten Schaar
-  1998, Martin Wahlen
-  1998, Miguel de Icaza,computo,622-4680
-  1998, Tom Tromey
-  1998, Yukihiro Nakai
-  1999-2000, Lorint Hendschel
-  1999-2000, Robert Brady
-  1999-2001, Matthias Warkus
-  1999-2002, Pablo Saratxaga <srtxg@chanae.alphanet.ch>
-  1999-2002, Simos Xenitellis
-  1999-2002, Yuri Syrota
-  1999-2004, Jesús Bravo Álvarez
-  1999-2004, Jesús Bravo Álvarez <suso@trasno.net>
-  1999-2012, Takayuki KUSANO
-  1999, Anders Carlsson
-  1999, Birger Langkjer
-  1999, Eiichiro ITANI
-  1999, Kuba Winnicki
-  1999, Lauris Kaplinski
-  1999, Mikko Rauhala
-  1999, Nuno Ferreira
-  1999, Sergey Panov
-  1999, Spiros Papadimitriou
-  1999, Yasuyuki Furukawa
-  1999, Yuan-Chung Cheng
-  2000-2001, Benedikt Roth
-  2000-2001, Christian Fredrik Kalager Schaller
-  2000-2001, Christian Meyer
-  2000-2001, Gustavo Maciel Dias Vieira
-  2000-2001, Karl Eichwalder
-  2000-2001, Keld Simonsen
-  2000-2001, Martin Norbäck
-  2000-2002, Emese Kovacs
-  2000-2002, Valek Filippov
-  2000-2002, Vasif Ismailoglu MD
-  2000-2003, Gediminas Paulauskas
-  2000-2005, Christian Rose
-  2000-2005, Pauli Virtanen
-  2000-2006, Christophe Merlet
-  2000-2007, Young-Ho Cha
-  2000, Almer S. Tigelaar
-  2000, Andraž Tori
-  2000, Andreas Hyden
-  2000, Artis Trops
-  2000, Chih-Wei Huang
-  2000, Dennis Smit
-  2000, Fatih Demir
-  2000, Ismael Olea
-  2000, Ivan Vilata i Balaguer
-  2000, Javier Gómez
-  2000, Jing-Jong Shyue
-  2000, Joaquim Fellmann
-  2000, Joseba Bidaurrazaga van Dierdonck
-  2000, Juanjo Alvarez
-  2000, Lucyin Mahin
-  2000, Manuel de Vega Barreiro
-  2000, Miguel de Icaza
-  2000, P�eris Krij�is
-  2000, Sarantis Paskalis
-  2000, Seán Ó Ceallaigh
-  2000, Shingo Akagaki
-  2000, Softcatalà
-  2000, Sung-Hyun Nam
-  2000, Yuusuke Tahara
-  2001-2002, Ilmar Kerm
-  2001-2002, Juan Manuel García Molina
-  2001-2002, Roy-Magne Mo
-  2001-2003, Abel Cheung
-  2001-2003, Andras Timar
-  2001-2003, Hasbullah Bin Pit (sebol)
-  2001-2003, Ole Laursen
-  2001-2013, Duarte Loreto
-  2001, Akira TAGOH
-  2001, Görkem Cetin
-  2001, Monica Gausen
-  2001, Pavel Cholakov
-  2001, Vincent van Adrighem
-  2002-2003, Dmitry G. Mastrukov
-  2002-2003, Gil 'Dolfin' Osher
-  2002-2003, Roozbeh Pournader
-  2002-2003, Sinan İmamoğlu
-  2002-2003, Stanislav Višňovský
-  2002-2004, Christian Neumair
-  2002-2004, Mətin Əmirov
-  2002-2005, Evandro Fernandes Giovanini
-  2002-2005, Gil Osher
-  2002-2006, Sharif FarsiWeb, Inc.
-  2002-2007, Jordi Mallach
-  2002-2008, Maxim Dziumanenko
-  2002-2021, Alexander Shopov
-  2002, Deep_Dark
-  2002, Ge'ez Frontier Foundation
-  2002, Huib Kleinhout
-  2002, Ivan Stojmirov
-  2002, Jeroen van der Vegt
-  2002, Jörgen Scheibengruber
-  2002, Ömer Fadıl USTA
-  2002, Ronald Hummelink
-  2002, Ryoichi INAGAKI
-  2002, Sayed Jaffer Al-Mosawi
-  2002, Sun G11n
-  2002, Tõivo Leedjärv
-  2002, Yanko Kaneti
-  2003-2005, Khandakar Mujahidul Islam
-  2003-2006, Åsmund Skjæveland
-  2003-2006, Laurent Dhima
-  2003-2007, Artur Flinta
-  2003-2008, Kostas Papadimas <pkst@gnome.org>
-  2003-2009, Takeshi AIHANA
-  2003-2010, Žygimantas Beručka
-  2003-2013, Reinout van Schouwen(na 10 jaar!).
-  2003-2022, Prevod.org team
-  2003, Arman Aksoy
-  2003, Francisco Javier F. Serrador <serrador@arrakis.es>
-  2003, FSF-India
-  2003, Funda Wang
-  2003, Joël BRICH
-  2003, Kostas Papadimas <pkst@gmx.net>
-  2003, Nikos Charonitakis
-  2003, Paul Duffy
-  2003, Ranee Somchaimit
-  2003, Richard Allen
-  2003, Samúel Jón Gunnarsson
-  2003, Sanlig Badral <badral@chinggis.com>
-  2003, Sanlig Badral <Badral@openmn.org>
-  2003, Stanislav Visnovsky
-  2003, Taneem Ahmed
-  2003, Vital Khilko
-  2003, www.gyfieithu.co.uk
-  2004-2005, Martin Willemoes Hansen
-  2004-2005, Vladimir "Kaladan" Petkov
-  2004-2006, Adam Weinberger
-  2004-2006, Adam Weinberger and the GNOME Foundation
-  2004-2006, Priit Laes
-  2004-2008, Leonid Kanter
-  2004-2009, Ankit Patel <ankit@redhat.com>
-  2004-2009, Baris Cicek
-  2004-2013, Luca Ferretti
-  2004-2018, Gabor Kelemen
-  2004, Amanpreet Singh Alam <amanliunx@netscapet.net>
-  2004, Dinesh Nadarajah
-  2004, Free Software Foundation
-  2004, Gurban Mühemmet Tewekgeli
-  2004, Hizkuntza Politikarako Sailburuordetza
-  2004, Jayaradha N
-  2004, John C Barstow
-  2004, Kakilik Project
-  2004, Laszlo Dvornik
-  2004, MagNet
-  2004, Paisa Seeluangsawat
-  2004, Pawan Chitrakar
-  2004, Peter Slavov
-  2004, Zuza Software Foundation
-  2004, Zuza Software Foundation <info@translate.org.za>
-  2005-2006, Elnaz Sarbar
-  2005-2006, Francisco Javier F. Serrador <serrador@cvs.gnome.org>
-  2005-2006, Ignacio Casal Quinteiro <nacho.resa@gmail.com>
-  2005-2006, Woodman Tuen
-  2005-2008, Amanpreet Singh Alam <aalam@users.sf.net>
-  2005-2008, Hendrik Richter
-  2005-2008, Marcel Telka
-  2005-2008, Tino Meinen
-  2005-2009, Ilkka Tuohela
-  2005-2009, Rajesh Ranjan <rranjan@redhat.com>
-  2005-2011, Ivar Smolin
-  2005-2012, Theppitak Karoonboonyanan
-  2005-2018, Iñaki Larrañaga Murgoitio
-  2005-2019, Canonical Ltd.
-  2005, Augustin KIBERWA
-  2005, Carole Karema
-  2005, Danilo Šegan
-  2005, Donatien NSENGIYUMVA
-  2005, Erdal Ronahi
-  2005, JEAN BAPTISTE NGENDAHAYO
-  2005, Justina Klingaitė
-  2005, Mohammad DAMT
-  2005, Noëlla Mupole
-  2005, Pablo Saratxaga <pablo@walon.org>
-  2005, Philibert Ndandali
-  2005, Shiva Prasad Pokharel
-  2005, Steve Murphy
-  2005, Viateur MUGENZI
-  2005, Данило Шеган
-  2006-2008, Arangel Angov <ufo@linux.net.mk>
-  2006-2008, Gintautas Miliauskas
-  2006-2008, Jovan Naumovski
-  2006-2008, Mate ORY
-  2006-2008, Robert-André Mauchin
-  2006-2009, Alexander Nyakhaychyk
-  2006-2009, Raivis Dejus
-  2006-2011, Novell, Inc.
-  2006-2011, The GNOME Project.
-  2006-2012, Daniel Nylander
-  2006-2013, Ani Peter
-  2006-2013, Ihar Hrachyshka
-  2006-2014, Khaled Hosny
-  2006-2019, Red Hat, Inc.
-  2006, Ales Nyakhaichyk
-  2006, Ankit Patel <ankit644@yahoo.com>
-  2006, Canonical Ltd, and Rosetta Contributors 2006
-  2006, Damien Durand
-  2006, Djihed Afifi
-  2006, Dominique PELLÉ
-  2006, Eddy Petrișor
-  2006, Felix
-  2006, Giulia
-  2006, Guillaume SAVATON
-  2006, Jeremy
-  2006, Jochen Skulj
-  2006, Laurent Richard
-  2006, Meelad Zakaria
-  2006, Rahul Bhalerao
-  2006, Satoru SATOH
-  2006, Sebastian Ivan
-  2006, Slobodan D. Sredojević
-  2006, Subhransu Behera
-  2006, Thierry Randrianiriana
-  2006, Слободан Д. Средојевић
-  2007-2008, William Jon McCann
-  2007-2008, William Jon McCann <mccann@jhu.edu>
-  2007-2009, Og Maciel
-  2007-2009, Seán de Búrca
-  2007-2009, Tomasz Dominikowski
-  2007-2011, Jorge González
-  2007-2011, Rosetta Contributors and Canonical Ltd
-  2007-2012, Dr.T.Vasudevan
-  2007-2012, Swecha Telugu Localisation Team
-  2007-2013, Wouter Bolsterlee
-  2007-2019, Ask Hjorth Larsen
-  2007-2019, Claude Paroz
-  2007-2021, Aviary.pl
-  2007-2023, Matej Urbančič
-  2007, Anas Husseini
-  2007, Andre Klapper
-  2007, Arangel Angov <arangel@linux.net.mk>
-  2007, Danishka Navin
-  2007, Elian Myftiu
-  2007, FIRST AUTHOR <EMAIL@ADDRESS>
-  2007, Ignacio Casal Quinteiro <icq@cvs.gnome.org>
-  2007, Jonathan Ernst
-  2007, Josep Puigdemont
-  2007, Lasse Bang Mikkelsen
-  2007, Massimo Furlani
-  2007, Nabin Gautam
-  2007, Peter Bach
-  2007, Peter Tuharsky
-  2007, Wadim Dziedzic
-  2007, Xose S. Puente
-  2007, Yannig Marchegay (Kokoyaya)
-  2008-2009, Adi Roiban
-  2008-2010, Chao-Hsiung Liao
-  2008-2010, Timo Jyrinki
-  2008-2011, David Planella
-  2008-2011, I. Felix
-  2008-2012, Runa Bhattacharjee <runab@redhat.com>
-  2008-2013, Kenneth Nielsen
-  2008-2014, Sandeep Shedmake
-  2008-2014, Shankar Prasad
-  2008-2018, Mario Blättermann
-  2008, Anas Afif Emad
-  2008, Chris PAVLINA
-  2008, Djavan Fagundes
-  2008, Eskild Hustvedt
-  2008, Frédéric Péters
-  2008, Hari Vishnu
-  2008, Ignacio Casal Quinteiro <icq@svn.gnome.org>
-  2008, Jon McCann
-  2008, Joop EGGEN
-  2008, Leonardo Ferreira Fontenelle
-  2008, Lucas Rocha.
-  2008, Mikko Piippo
-  2008, M.P. Rommedahl
-  2008, Praveen Arimbrathodiyil
-  2008, Runa Bhattacharjee <runab@fedoraproject.org>
-  2008, Stéphane Raimbault
-  2008, Vladimir Melo
-  2008, William Jon McCann <jmccann@redhat.com>
-  2008, Yavor Doganov
-  2008, Zabeeh Khan
-  2009-2010, Amitakhya Phukan
-  2009-2010, Pavol Šimo
-  2009-2010, Philip Withnall
-  2009-2010, Vincent Untz <vuntz@budgie.org>
-  2009-2010, Vincent Untz <vuntz@gnome.org>
-  2009-2011, Lucian Adrian Grijincu
-  2009-2012, Bruno Brouard
-  2009-2012, Fran Diéguez
-  2009-2012, Wolfgang Stöggl
-  2009-2013, Christian Kirbach
-  2009-2013, Reşat SABIQ
-  2009-2014, Manoj Kumar Giri
-  2009-2014, Sweta Kothari
-  2009-2018, Kristjan SCHMIDT
-  2009-2021, A S Alam
-  2009, André Gondim
-  2009, Anisimov Victor
-  2009, Antón Méixome
-  2009, Donald ROGERS
-  2009, Jamy
-  2009, Jennie Petoumenou
-  2009, Loba Yeasmeen
-  2009, Mancomún - Centro de Referencia e Servizos de Software Libre
-  2009, Michael MORONI
-  2009, Nils-Christoph Fiedler
-  2009, Nurali Abdurahmonov
-  2009, Rajesh Ranjan <rajesh672@gmail.com>
-  2009, Sietse
-  2009, Tao Wei
-  2009, The Gnome Foundation.
-  2009, Thomas Thurman
-  2009, Yang Zhang
-  2010-2011, Daniel Șerbănescu <cyber19rider@gmail.com>
-  2010-2011, Iranian Free Software Users Grouptranslation team.
-  2010-2011, Israt Jahan
-  2010-2011, Miloš Popović
-  2010-2011, Sense Hofstede
-  2010-2011, Милош Поповић
-  2010-2014, Andika Triwidada
-  2010-2014, Dirgita
-  2010-2021, Piotr Drąg
-  2010-2021, Rūdolfs Mazurs
-  2010, Aron Xu
-  2010, Benno SCHULENBERG
-  2010, Damyan Ivanov
-  2010, Gheyret T.Kenji
-  2010, Mahyar Moghimi
-  2010, Sahran
-  2010, Torstein Adolf Winterseth <kvikende@fsfe.org>
-  2010, Torstein Adolf Winterseth <kvikende@yahoo.no>
-  2010, Ville-Pekka Vainio
-  2010, Wei-Lun Chao
-  2010, Yasumichi Akahoshi
-  2011-2012, Hideki Yamane
-  2011-2012, Korostil Daniel
-  2011-2012, Rūdofls Mazurs
-  2011-2013, F Wolff
-  2011-2013, Kris Thomsen
-  2011-2013, Nilamdyuti Goswami
-  2011-2015, Jiro Matsuzawa
-  2011-2015, Muhammet Kara
-  2011-2017, Arash Mousavi
-  2011-2017, Miroslav Nikolić
-  2011-2019, Bruce Cowan
-  2011-2021, Daniel Mustieles
-  2011-2022, Мирослав Николић
-  2011, Anass Ahmed
-  2011, Andreas N.
-  2011, FIRST AUTHOR <EMAIL@ADDRESS>
-  2011, Flamarion Jorge
-  2011, flemming christensen
-  2011, Julen Ruiz Aizpuru
-  2011, Krasimir Chonov#
-  2011, liu zhen
-  2011, Michael Kotsarinis
-  2011, Muhammed Eken
-  2011, Nguyễn Thái Ngọc Duy
-  2011, Nicolas Repentin
-  2011, Paul Seyfert
-  2011, Rudolfs
-  2011, Tiffany ANTOPOLSKI
-  2011, Tommi Vainikainen
-  2012-2014, rajesh
-  2012-2017, Jiri Grönroos
-  2012-2021, Dušan Kazik
-  2012-2021, Milo Casagrande
-  2012-2022, Fran Dieguez
-  2012, Bonaventura Aditya Perdana
-  2012, Ibrahim Saed
-  2012, Jordi Serratosa
-  2012, Leandro Regueiro
-  2012, Mattias Põldaru
-  2012, Noriko Mizumoto
-  2012, Re.
-  2012, sutha
-  2012, Tobias Endrigkeit
-  2012, tuhaihe
-  2013-2014, sray#zanata.
-  2013-2015, Victor Ibragimov
-  2013-2016, Daniel Korostil
-  2013-2017, Anish Sheela
-  2013-2018, Danial Behzadi
-  2013-2019, Efstathios Iosifidis
-  2013-2019, Enrico Nicoletto
-  2013-2019, GunChleoc
-  2013-2020, Baurzhan Muftakhidinov
-  2013-2020, Yosef Or Boczko
-  2013-2021, Aurimas Černius
-  2013, Akhilan
-  2013, Andre Jonas
-  2013, Anish A
-  2013, António Lima
-  2013, chandankumar
-  2013, Dimitris Spingos (Δημήτρης Σπίγγος)
-  2013, Gil Forcada
-  2013, Josep Sànchez
-  2013, nhm
-  2013, Osman Karagöz
-  2013, Ozan Çağlayan
-  2013, Ryan LORTIE
-  2013, Shantha kumar
-  2013, SUSE LINUX Products GmbH, Nuernberg, Germany.
-  2013, Wylmer Wang
-  2013, Yuri Myasoedov
-  2014-2019, Stas Solovey
-  2014-2021, Anders Jonsson
-  2014-2022, Balázs Úr
-  2014-2022, Trần Ngọc Quân
-  2014, Bernd Homuth
-  2014, Gökhan Gurbetoğlu
-  2014, ngoswami#zanata.
-  2015-2016, Akom Chotiphantawanon
-  2015-2017, Daniel Șerbănescu <daniel@serbanescu.dk>
-  2015-2018, Hannie Dumoleyn
-  2015-2021, Sveinn í Felli
-  2015-2022, Nathan Follens
-  2015, Cédric Valmary (Tot en òc)
-  2015, Daniel Martinez
-  2015, Daniel PUENTES
-  2015, Hajime Taira
-  2015, Pedro Albuquerque
-  2015, Tong Hui
-  2016-2018, Cédric Valmary (totenoc.eu)
-  2016-2020, Rafael Fontenelle
-  2016, Endless Mobile, Inc
-  2016, Florian Heiser
-  2016, GNOME i18n Project for Vietnamese.
-  2016, Sérgio Cardeira
-  2017-2018, Çağatay Yiğit Şahin
-  2017-2021, Emin Tufan Çetin
-  2017-2021, Kukuh Syafaat
-  2017, Lyubomir Vasilev
-  2017, Pieter Schoeman
-  2017, Yuras Shumovich
-  2018-2019, Dingzhong Chen
-  2018-2021, Charles Monzat
-  2018, Carmen Bianca BAKKER
-  2018, Mingcong Bai
-  2018, Ranjith Siji
-  2019-2020, sicklylife
-  2019-2021, Asier Sarasua Garmendia
-  2019, Benjamin Berg
-  2019, Dusan B.
-  2019, Jor Teron
-  2019, pan93412
-  2019, Sabri Ünal
-  2020-2021, José Vieira
-  2020-2021, Yuri Chornoivan
-  2020, Akarshan Biswas
-  2020, Juliano Camargo
-  2020, jwtiyar
-  2020, Sebastian Geiger
-  2020, vanadiae
-  2020, Zander Brown
-  2020, Марко М. Костић
-  2021, Alexander Shopov.
-  2021, Hugo Carvalho
-  2021, Matej Mrenica
-  2021, Melman
-  2022, lumingzh
-  2022, Нанба Наала
-  2023, buddiesofbudgie
-  Automatski Prijevod
-  colaborar connosco, podes atopar máis información en http://www.trasno.net
-  Denis Lackovic
-  Dillion Chen
-  Jiang Xiong
-  Pradeep Deshpande
-  Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
-  Robert Sedak
-  Wang Jian
-  Zipeco
+Copyright: 2007, 2008, William Jon McCann
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2023, Marc Gilligan <marcg@ulfnic.com>
-  2023, David Mohammed <fossfreedom@ubuntu.com>
+Copyright: 2024, Marc Gilligan <marcg@ulfnic.com>
+ 2024, David Mohammed <fossfreedom@ubuntu.com>
+License: GPL-2+
+
+Files: doc/man/*
+Copyright: 2023, buddiesofbudgie
+ 2009, 2010, Vincent Untz (vuntz@budgie.org)
+ 2000, Miguel de Icaza (miguel@helixcode.com)
+License: GPL-2+
+
+Files: doc/man/budgie-session.1
+Copyright: 2023, BuddiesOfBudgie
+ 2020, Sebastian Geiger (sbastig@gmx.net)
+ 2019, Benjamin Berg (bberg@redhat.com)
+ 2009, 2010, Vincent Untz (vuntz@gnome.org)
+ 2000, Miguel de Icaza (miguel@helixcode.com)
+License: GPL-2+
+
+Files: gnome-session/*
+Copyright: 2008-2012, Red Hat, Inc.
+License: GPL-2+
+
+Files: gnome-session/gdm-log.c
+  gnome-session/gdm-log.h
+  gnome-session/gsm-store.c
+  gnome-session/gsm-store.h
+Copyright: 2007, 2008, William Jon McCann <mccann@jhu.edu>
+License: GPL-2+
+
+Files: gnome-session/gsm-app.c
+  gnome-session/gsm-app.h
+  gnome-session/gsm-autostart-app.c
+  gnome-session/gsm-autostart-app.h
+  gnome-session/gsm-client.c
+  gnome-session/gsm-client.h
+  gnome-session/gsm-session-fill.c
+  gnome-session/gsm-session-fill.h
+  gnome-session/gsm-xsmp-client.c
+  gnome-session/main.c
+Copyright: 2008, Red Hat, Inc.
+ 2006, 2007, 2010, Novell, Inc.
+License: GPL-2+
+
+Files: gnome-session/gsm-consolekit.c
+  gnome-session/gsm-consolekit.h
+  gnome-session/gsm-system.h
+Copyright: 2008, Jon McCann <jmccann@redhat.com>
+License: GPL-2+
+
+Files: gnome-session/gsm-fail-whale-dialog.c
+  gnome-session/gsm-fail-whale-dialog.h
+Copyright: 2019, Canonical Ltd.
+ 2011, Red Hat, Inc.
+License: GPL-2+
+
+Files: gnome-session/gsm-fail-whale.c
+  gnome-session/gsm-shell-extensions.c
+  gnome-session/gsm-shell-extensions.h
+  gnome-session/gsm-shell.c
+Copyright: 2010-2013, Red Hat, Inc
+License: GPL-2+
+
+Files: gnome-session/gsm-icon-names.h
+  gnome-session/gsm-process-helper.c
+  gnome-session/gsm-process-helper.h
+  gnome-session/gsm-xsmp-client.h
+Copyright: 2007, 2010, 2011, Novell, Inc.
+License: GPL-2+
+
+Files: gnome-session/gsm-manager-logout-mode.h
+  gnome-session/gsm-manager.h
+  gnome-session/gsm-xsmp-server.h
+Copyright: 2008, William Jon McCann <jmccann@redhat.com>
+License: GPL-2+
+
+Files: gnome-session/gsm-manager.c
+  gnome-session/gsm-xsmp-server.c
+Copyright: 2008, William Jon McCann <jmccann@redhat.com>
+ 2008, Red Hat, Inc.
+ 2007, Novell, Inc.
+License: GPL-2+
+
+Files: gnome-session/gsm-session-save.c
+  gnome-session/gsm-session-save.h
+  gnome-session/gsm-util.c
+  gnome-session/gsm-util.h
+Copyright: 2008, Lucas Rocha.
+License: GPL-2+
+
+Files: po/*
+Copyright: colaborar connosco, podes atopar máis información en http://www.trasno.net
+ Zipeco
+ Wang Jian
+ Robert Sedak
+ Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+ Pradeep Deshpande
+ Jiang Xiong
+ Dillion Chen
+ Denis Lackovic
+ Automatski Prijevod
+ 2022, Нанба Наала
+ 2022, lumingzh
+ 2021, Melman
+ 2021, Matej Mrenica
+ 2021, Hugo Carvalho
+ 2021, Alexander Shopov.
+ 2020, Марко М. Костић
+ 2020, vanadiae
+ 2020, jwtiyar
+ 2020, Zander Brown
+ 2020, Juliano Camargo
+ 2020, Akarshan Biswas
+ 2020, 2021, Yuri Chornoivan
+ 2020, 2021, José Vieira
+ 2019-2021, Asier Sarasua Garmendia
+ 2019, pan93412
+ 2019, Sabri Ünal
+ 2019, Jor Teron
+ 2019, Dusan B.
+ 2019, 2020, sicklylife
+ 2018-2021, Charles Monzat
+ 2018, Ranjith Siji
+ 2018, Mingcong Bai
+ 2018, Carmen Bianca BAKKER
+ 2018, 2019, Dingzhong Chen
+ 2017-2021, Kukuh Syafaat
+ 2017-2021, Emin Tufan Çetin
+ 2017, Yuras Shumovich
+ 2017, Pieter Schoeman
+ 2017, Lyubomir Vasilev
+ 2017, 2018, Çağatay Yiğit Şahin
+ 2016-2020, Rafael Fontenelle
+ 2016-2018, Cédric Valmary (totenoc.eu)
+ 2016, Sérgio Cardeira
+ 2016, GNOME i18n Project for Vietnamese.
+ 2016, Florian Heiser
+ 2016, Endless Mobile, Inc
+ 2015-2022, Nathan Follens
+ 2015-2021, Sveinn í Felli
+ 2015-2018, Hannie Dumoleyn
+ 2015-2017, Daniel Șerbănescu <daniel@serbanescu.dk>
+ 2015, Tong Hui
+ 2015, Pedro Albuquerque
+ 2015, Hajime Taira
+ 2015, Daniel PUENTES
+ 2015, Daniel Martinez
+ 2015, Cédric Valmary (Tot en òc)
+ 2015, 2016, Akom Chotiphantawanon
+ 2014-2022, Trần Ngọc Quân
+ 2014-2022, Balázs Úr
+ 2014-2021, Anders Jonsson
+ 2014-2019, Stas Solovey
+ 2014, ngoswami#zanata.
+ 2014, Gökhan Gurbetoğlu
+ 2014, Bernd Homuth
+ 2013-2021, Aurimas Černius
+ 2013-2020, Yosef Or Boczko
+ 2013-2020, Baurzhan Muftakhidinov
+ 2013-2019, GunChleoc
+ 2013-2019, Enrico Nicoletto
+ 2013-2019, Efstathios Iosifidis
+ 2013-2018, Danial Behzadi
+ 2013-2017, Anish Sheela
+ 2013-2016, Daniel Korostil
+ 2013-2015, Victor Ibragimov
+ 2013, nhm
+ 2013, chandankumar
+ 2013, Yuri Myasoedov
+ 2013, Wylmer Wang
+ 2013, Shantha kumar
+ 2013, Ryan LORTIE
+ 2013, Ozan Çağlayan
+ 2013, Osman Karagöz
+ 2013, Josep Sànchez
+ 2013, Gil Forcada
+ 2013, Dimitris Spingos (Δημήτρης Σπίγγος)
+ 2013, António Lima
+ 2013, Anish A
+ 2013, Andre Jonas
+ 2013, Akhilan
+ 2013, 2014, sray#zanata.
+ 2012-2022, Fran Dieguez
+ 2012-2021, Milo Casagrande
+ 2012-2021, Dušan Kazik
+ 2012-2017, Jiri Grönroos
+ 2012-2014, rajesh
+ 2012, tuhaihe
+ 2012, sutha
+ 2012, Tobias Endrigkeit
+ 2012, Re.
+ 2012, Noriko Mizumoto
+ 2012, Mattias Põldaru
+ 2012, Leandro Regueiro
+ 2012, Jordi Serratosa
+ 2012, Ibrahim Saed
+ 2012, Bonaventura Aditya Perdana
+ 2011-2022, Мирослав Николић
+ 2011-2021, Daniel Mustieles
+ 2011-2019, Bruce Cowan
+ 2011-2017, Miroslav Nikolić
+ 2011-2017, Arash Mousavi
+ 2011-2015, Muhammet Kara
+ 2011-2015, Jiro Matsuzawa
+ 2011-2013, Nilamdyuti Goswami
+ 2011-2013, Kris Thomsen
+ 2011-2013, F Wolff
+ 2011, liu zhen
+ 2011, flemming christensen
+ 2011, Tommi Vainikainen
+ 2011, Tiffany ANTOPOLSKI
+ 2011, Rudolfs
+ 2011, Paul Seyfert
+ 2011, Nicolas Repentin
+ 2011, Nguyễn Thái Ngọc Duy
+ 2011, Muhammed Eken
+ 2011, Michael Kotsarinis
+ 2011, Krasimir Chonov#
+ 2011, Julen Ruiz Aizpuru
+ 2011, Flamarion Jorge
+ 2011, Andreas N.
+ 2011, Anass Ahmed
+ 2011, 2012, Rūdofls Mazurs
+ 2011, 2012, Korostil Daniel
+ 2011, 2012, Hideki Yamane
+ 2010-2021, Rūdolfs Mazurs
+ 2010-2021, Piotr Drąg
+ 2010-2014, Dirgita
+ 2010-2014, Andika Triwidada
+ 2010, Yasumichi Akahoshi
+ 2010, Wei-Lun Chao
+ 2010, Ville-Pekka Vainio
+ 2010, Torstein Adolf Winterseth <kvikende@yahoo.no>
+ 2010, Torstein Adolf Winterseth <kvikende@fsfe.org>
+ 2010, Sahran
+ 2010, Mahyar Moghimi
+ 2010, Gheyret T.Kenji
+ 2010, Damyan Ivanov
+ 2010, Benno SCHULENBERG
+ 2010, Aron Xu
+ 2010, 2011, Милош Поповић
+ 2010, 2011, Sense Hofstede
+ 2010, 2011, Miloš Popović
+ 2010, 2011, Israt Jahan
+ 2010, 2011, Iranian Free Software Users Grouptranslation team.
+ 2010, 2011, Daniel Șerbănescu <cyber19rider@gmail.com>
+ 2009-2021, A S Alam
+ 2009-2018, Kristjan SCHMIDT
+ 2009-2014, Sweta Kothari
+ 2009-2014, Manoj Kumar Giri
+ 2009-2013, Reşat SABIQ
+ 2009-2013, Christian Kirbach
+ 2009-2012, Wolfgang Stöggl
+ 2009-2012, Fran Diéguez
+ 2009-2012, Bruno Brouard
+ 2009-2011, Lucian Adrian Grijincu
+ 2009, Yang Zhang
+ 2009, Thomas Thurman
+ 2009, The Gnome Foundation.
+ 2009, Tao Wei
+ 2009, Sietse
+ 2009, Rajesh Ranjan <rajesh672@gmail.com>
+ 2009, Nurali Abdurahmonov
+ 2009, Nils-Christoph Fiedler
+ 2009, Michael MORONI
+ 2009, Mancomún - Centro de Referencia e Servizos de Software Libre
+ 2009, Loba Yeasmeen
+ 2009, Jennie Petoumenou
+ 2009, Jamy
+ 2009, Donald ROGERS
+ 2009, Antón Méixome
+ 2009, Anisimov Victor
+ 2009, André Gondim
+ 2009, 2010, Philip Withnall
+ 2009, 2010, Pavol Šimo
+ 2009, 2010, Amitakhya Phukan
+ 2008-2018, Mario Blättermann
+ 2008-2014, Shankar Prasad
+ 2008-2014, Sandeep Shedmake
+ 2008-2013, Kenneth Nielsen
+ 2008-2012, Runa Bhattacharjee <runab@redhat.com>
+ 2008-2011, I. Felix
+ 2008-2011, David Planella
+ 2008-2010, Timo Jyrinki
+ 2008-2010, Chao-Hsiung Liao
+ 2008, Zabeeh Khan
+ 2008, Yavor Doganov
+ 2008, Vladimir Melo
+ 2008, Stéphane Raimbault
+ 2008, Runa Bhattacharjee <runab@fedoraproject.org>
+ 2008, Praveen Arimbrathodiyil
+ 2008, Mikko Piippo
+ 2008, M.P. Rommedahl
+ 2008, Leonardo Ferreira Fontenelle
+ 2008, Joop EGGEN
+ 2008, Ignacio Casal Quinteiro <icq@svn.gnome.org>
+ 2008, Hari Vishnu
+ 2008, Frédéric Péters
+ 2008, Eskild Hustvedt
+ 2008, Djavan Fagundes
+ 2008, Chris PAVLINA
+ 2008, Anas Afif Emad
+ 2008, 2009, Adi Roiban
+ 2007-2023, Matej Urbančič
+ 2007-2021, Aviary.pl
+ 2007-2019, Claude Paroz
+ 2007-2019, Ask Hjorth Larsen
+ 2007-2013, Wouter Bolsterlee
+ 2007-2012, Swecha Telugu Localisation Team
+ 2007-2012, Dr.T.Vasudevan
+ 2007-2011, Rosetta Contributors and Canonical Ltd
+ 2007-2011, Jorge González
+ 2007-2009, Tomasz Dominikowski
+ 2007-2009, Seán de Búrca
+ 2007-2009, Og Maciel
+ 2007, Yannig Marchegay (Kokoyaya)
+ 2007, Xose S. Puente
+ 2007, Wadim Dziedzic
+ 2007, Peter Tuharsky
+ 2007, Peter Bach
+ 2007, Nabin Gautam
+ 2007, Massimo Furlani
+ 2007, Lasse Bang Mikkelsen
+ 2007, Josep Puigdemont
+ 2007, Jonathan Ernst
+ 2007, Ignacio Casal Quinteiro <icq@cvs.gnome.org>
+ 2007, Elian Myftiu
+ 2007, Danishka Navin
+ 2007, Arangel Angov <arangel@linux.net.mk>
+ 2007, Andre Klapper
+ 2007, Anas Husseini
+ 2006-2014, Khaled Hosny
+ 2006-2013, Ihar Hrachyshka
+ 2006-2013, Ani Peter
+ 2006-2012, Daniel Nylander
+ 2006-2011, The GNOME Project.
+ 2006-2009, Raivis Dejus
+ 2006-2009, Alexander Nyakhaychyk
+ 2006-2008, Robert-André Mauchin
+ 2006-2008, Mate ORY
+ 2006-2008, Jovan Naumovski
+ 2006-2008, Gintautas Miliauskas
+ 2006-2008, Arangel Angov <ufo@linux.net.mk>
+ 2006, Слободан Д. Средојевић
+ 2006, Thierry Randrianiriana
+ 2006, Subhransu Behera
+ 2006, Slobodan D. Sredojević
+ 2006, Sebastian Ivan
+ 2006, Satoru SATOH
+ 2006, Rahul Bhalerao
+ 2006, Meelad Zakaria
+ 2006, Laurent Richard
+ 2006, Jochen Skulj
+ 2006, Jeremy
+ 2006, Guillaume SAVATON
+ 2006, Giulia
+ 2006, Felix
+ 2006, Eddy Petrișor
+ 2006, Dominique PELLÉ
+ 2006, Djihed Afifi
+ 2006, Damien Durand
+ 2006, Canonical Ltd, and Rosetta Contributors 2006
+ 2006, Ankit Patel <ankit644@yahoo.com>
+ 2006, Ales Nyakhaichyk
+ 2005-2019, Canonical Ltd.
+ 2005-2018, Iñaki Larrañaga Murgoitio
+ 2005-2012, Theppitak Karoonboonyanan
+ 2005-2011, Ivar Smolin
+ 2005-2009, Rajesh Ranjan <rranjan@redhat.com>
+ 2005-2009, Ilkka Tuohela
+ 2005-2008, Tino Meinen
+ 2005-2008, Marcel Telka
+ 2005-2008, Hendrik Richter
+ 2005-2008, Amanpreet Singh Alam <aalam@users.sf.net>
+ 2005, Данило Шеган
+ 2005, Viateur MUGENZI
+ 2005, Steve Murphy
+ 2005, Shiva Prasad Pokharel
+ 2005, Philibert Ndandali
+ 2005, Pablo Saratxaga <pablo@walon.org>
+ 2005, Noëlla Mupole
+ 2005, Mohammad DAMT
+ 2005, Justina Klingaitė
+ 2005, JEAN BAPTISTE NGENDAHAYO
+ 2005, Erdal Ronahi
+ 2005, Donatien NSENGIYUMVA
+ 2005, Danilo Šegan
+ 2005, Carole Karema
+ 2005, Augustin KIBERWA
+ 2005, 2006, Woodman Tuen
+ 2005, 2006, Ignacio Casal Quinteiro <nacho.resa@gmail.com>
+ 2005, 2006, Francisco Javier F. Serrador <serrador@cvs.gnome.org>
+ 2005, 2006, Elnaz Sarbar
+ 2004-2018, Gabor Kelemen
+ 2004-2013, Luca Ferretti
+ 2004-2009, Baris Cicek
+ 2004-2009, Ankit Patel <ankit@redhat.com>
+ 2004-2008, Leonid Kanter
+ 2004-2006, Priit Laes
+ 2004-2006, Adam Weinberger and the GNOME Foundation
+ 2004-2006, Adam Weinberger
+ 2004, Zuza Software Foundation <info@translate.org.za>
+ 2004, Zuza Software Foundation
+ 2004, Peter Slavov
+ 2004, Pawan Chitrakar
+ 2004, Paisa Seeluangsawat
+ 2004, MagNet
+ 2004, Laszlo Dvornik
+ 2004, Kakilik Project
+ 2004, John C Barstow
+ 2004, Jayaradha N
+ 2004, Hizkuntza Politikarako Sailburuordetza
+ 2004, Gurban Mühemmet Tewekgeli
+ 2004, Free Software Foundation
+ 2004, Dinesh Nadarajah
+ 2004, Amanpreet Singh Alam <amanliunx@netscapet.net>
+ 2004, 2005, Vladimir "Kaladan" Petkov
+ 2004, 2005, Martin Willemoes Hansen
+ 2003-2022, Prevod.org team
+ 2003-2013, Reinout van Schouwen(na 10 jaar!).
+ 2003-2010, Žygimantas Beručka
+ 2003-2009, Takeshi AIHANA
+ 2003-2008, Kostas Papadimas <pkst@gnome.org>
+ 2003-2007, Artur Flinta
+ 2003-2006, Åsmund Skjæveland
+ 2003-2006, Laurent Dhima
+ 2003-2005, Khandakar Mujahidul Islam
+ 2003, www.gyfieithu.co.uk
+ 2003, Vital Khilko
+ 2003, Taneem Ahmed
+ 2003, Stanislav Visnovsky
+ 2003, Sanlig Badral <badral@chinggis.com>
+ 2003, Sanlig Badral <Badral@openmn.org>
+ 2003, Samúel Jón Gunnarsson
+ 2003, Richard Allen
+ 2003, Ranee Somchaimit
+ 2003, Paul Duffy
+ 2003, Nikos Charonitakis
+ 2003, Kostas Papadimas <pkst@gmx.net>
+ 2003, Joël BRICH
+ 2003, Funda Wang
+ 2003, Francisco Javier F. Serrador <serrador@arrakis.es>
+ 2003, FSF-India
+ 2003, Arman Aksoy
+ 2002-2021, Alexander Shopov
+ 2002-2008, Maxim Dziumanenko
+ 2002-2007, Jordi Mallach
+ 2002-2006, Sharif FarsiWeb, Inc.
+ 2002-2005, Gil Osher
+ 2002-2005, Evandro Fernandes Giovanini
+ 2002-2004, Mətin Əmirov
+ 2002-2004, Christian Neumair
+ 2002, Ömer Fadıl USTA
+ 2002, Yanko Kaneti
+ 2002, Tõivo Leedjärv
+ 2002, Sun G11n
+ 2002, Sayed Jaffer Al-Mosawi
+ 2002, Ryoichi INAGAKI
+ 2002, Ronald Hummelink
+ 2002, Jörgen Scheibengruber
+ 2002, Jeroen van der Vegt
+ 2002, Ivan Stojmirov
+ 2002, Huib Kleinhout
+ 2002, Ge'ez Frontier Foundation
+ 2002, Deep_Dark
+ 2002, 2003, Stanislav Višňovský
+ 2002, 2003, Sinan İmamoğlu
+ 2002, 2003, Roozbeh Pournader
+ 2002, 2003, Gil 'Dolfin' Osher
+ 2002, 2003, Dmitry G. Mastrukov
+ 2001-2013, Duarte Loreto
+ 2001-2003, Ole Laursen
+ 2001-2003, Hasbullah Bin Pit (sebol)
+ 2001-2003, Andras Timar
+ 2001-2003, Abel Cheung
+ 2001, Vincent van Adrighem
+ 2001, Pavel Cholakov
+ 2001, Monica Gausen
+ 2001, Görkem Cetin
+ 2001, Akira TAGOH
+ 2001, 2002, Roy-Magne Mo
+ 2001, 2002, Juan Manuel García Molina
+ 2001, 2002, Ilmar Kerm
+ 2000-2007, Young-Ho Cha
+ 2000-2006, Christophe Merlet
+ 2000-2005, Pauli Virtanen
+ 2000-2005, Christian Rose
+ 2000-2003, Gediminas Paulauskas
+ 2000-2002, Vasif Ismailoglu MD
+ 2000-2002, Valek Filippov
+ 2000-2002, Emese Kovacs
+ 2000, Yuusuke Tahara
+ 2000, Sung-Hyun Nam
+ 2000, Softcatalà
+ 2000, Shingo Akagaki
+ 2000, Seán Ó Ceallaigh
+ 2000, Sarantis Paskalis
+ 2000, P�eris Krij�is
+ 2000, Manuel de Vega Barreiro
+ 2000, Lucyin Mahin
+ 2000, Juanjo Alvarez
+ 2000, Joseba Bidaurrazaga van Dierdonck
+ 2000, Joaquim Fellmann
+ 2000, Jing-Jong Shyue
+ 2000, Javier Gómez
+ 2000, Ivan Vilata i Balaguer
+ 2000, Ismael Olea
+ 2000, Fatih Demir
+ 2000, Dennis Smit
+ 2000, Chih-Wei Huang
+ 2000, Artis Trops
+ 2000, Andreas Hyden
+ 2000, Andraž Tori
+ 2000, Almer S. Tigelaar
+ 2000, 2001, Martin Norbäck
+ 2000, 2001, Keld Simonsen
+ 2000, 2001, Karl Eichwalder
+ 2000, 2001, Gustavo Maciel Dias Vieira
+ 2000, 2001, Christian Meyer
+ 2000, 2001, Christian Fredrik Kalager Schaller
+ 2000, 2001, Benedikt Roth
+ 1999-2012, Takayuki KUSANO
+ 1999-2004, Jesús Bravo Álvarez <suso@trasno.net>
+ 1999-2004, Jesús Bravo Álvarez
+ 1999-2002, Yuri Syrota
+ 1999-2002, Simos Xenitellis
+ 1999-2002, Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+ 1999-2001, Matthias Warkus
+ 1999, Yuan-Chung Cheng
+ 1999, Yasuyuki Furukawa
+ 1999, Spiros Papadimitriou
+ 1999, Sergey Panov
+ 1999, Nuno Ferreira
+ 1999, Mikko Rauhala
+ 1999, Lauris Kaplinski
+ 1999, Kuba Winnicki
+ 1999, Eiichiro ITANI
+ 1999, Birger Langkjer
+ 1999, Anders Carlsson
+ 1999, 2000, Robert Brady
+ 1999, 2000, Lorint Hendschel
+ 1998-2023, Kjartan Maraas
+ 1998-2022, Changwoo Ryu
+ 1998-2008, the Free Software Foundation, Inc.
+ 1998-2003, Zbigniew Chyla
+ 1998-2002, Szabolcs Ban
+ 1998-2000, Vincent Renardias
+ 1998-2000, Ville Hautamäki
+ 1998-2000, Kenneth Christiansen
+ 1998, Yukihiro Nakai
+ 1998, Tom Tromey
+ 1998, Miguel de Icaza,computo,622-4680
+ 1998, Martin Wahlen
+ 1998, Carsten Schaar
+ 1998, 1999, Max Valianskiy
+ 1998, 1999, Dirk-Jan C. Binnema
+ 1997-2002, Christopher R. Gabriel
+License: GPL-2+
+
+Files: tools/*
+Copyright: 2008, 2019, Red Hat, Inc.
+ 1998, Tom Tromey
+License: GPL-2+
+
+Files: tools/gnome-session-check-accelerated-common.h
+Copyright: 2013, SUSE LINUX Products GmbH, Nuernberg, Germany.
+License: GPL-2+
+
+Files: tools/gnome-session-check-accelerated-gl-helper.c
+Copyright: 2010, Novell, Inc.
+ 2006-2009, Red Hat, Inc.
+License: GPL-2+
+
+Files: tools/gnome-session-check-accelerated-gles-helper.c
+Copyright: 2016, Endless Mobile, Inc
+License: GPL-2+
+
+Files: tools/gnome-session-check-accelerated.c
+  tools/gnome-session-inhibit.c
+Copyright: 2008-2012, Red Hat, Inc.
+License: GPL-2+
+
+Files: tools/gnome-session-selector.c
+Copyright: 2010-2013, Red Hat, Inc
 License: GPL-2+
 
 License: GPL-2+
