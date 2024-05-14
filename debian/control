@@ -22,7 +22,6 @@ Build-Depends:
  libxt-dev,
  libxtst-dev,
  meson (>= 0.53.0),
- systemd [linux-any],
  xmlto,
  xsltproc,
  xtrans-dev,
