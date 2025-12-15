@@ -1,3 +1,10 @@
+budgie-session (1.0.0~preview.2-0ubuntu1) resolute; urgency=medium
+
+  * New upstream release
+    - autostart file location is now /usr/share/budgie-desktop/autostart
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 15 Dec 2025 20:21:22 +0000
+
 budgie-session (1.0.0~preview.1-0ubuntu1) resolute; urgency=medium
 
   * New upstream release
