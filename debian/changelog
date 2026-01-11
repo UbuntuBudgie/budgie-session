@@ -1,3 +1,10 @@
+budgie-session (1.0.0-1) experimental; urgency=medium
+
+  * New upstream release
+    - upstream has marked this as stable
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Jan 2026 19:50:47 +0000
+
 budgie-session (1.0.0~preview.2-1) experimental; urgency=medium
 
   * New upstream release
