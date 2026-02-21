@@ -27,7 +27,7 @@ Build-Depends:
  xsltproc,
  xtrans-dev,
 Rules-Requires-Root: no
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Vcs-Git: https://github.com/ubuntubudgie/budgie-session -b debian
 Vcs-Browser: https://github.com/ubuntubudgie/budgie-session/tree/debian
 Homepage: https://github.com/buddiesofbudgie/budgie-session
